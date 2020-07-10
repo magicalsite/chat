@@ -1,0 +1,157 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+li {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+
+.chat__item_first {
+	margin: 20px 0;
+}
+
+.chat__item_first a {
+	text-decoration: none;
+}
+
+.chat__item_back {
+	padding: 5px 46px;
+	border: 2px solid #ea6b48;
+	border-radius: 3px;
+	text-transform: uppercase;
+	color: #ea6b48;
+}
+
+.chat__item_back:hover {
+	color: #fff;
+	background: #ea6b48;
+}
+
+.image {
+	display: inline-block;
+	position: absolute;
+	margin: 10px 20px 10px 20px;
+	line-height: 50px;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	background: #a2a2a2;
+}
+
+.chat__item {
+	height: 50px;
+	line-height: 50px;
+}
+
+.chat__item a {
+	height: 40px;
+	line-height: 40px;
+	text-decoration: none;
+}
+
+.chat__item:hover {
+	border-right: 6px solid #fe7d15;
+	border-radius: 3px;
+	background: #fce8e0;
+}
+
+.online {
+	display: inline-block;
+	position: relative;
+	left: 45px;
+	top: -11px;
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: red;
+}
+
+.chat__item_name {
+	margin-left: 70px;
+	color: #a2a2a2;
+}
+
+
+.user {
+	margin-top: 60px;
+	background: #F2F2F2;
+}
+
+.user__name:hover {
+	border-right: 0 solid #fff;
+	border-radius: 0;
+	background: #F2F2F2;
+}
+
+.message_one {
+	padding: 5px 10px 5px 10px;
+	border: 2px solid #ffb770;
+	border-radius: 3px;
+	background: #fceed9;
+	width: 300px;
+	color: #6c6c6c;
+}
+
+.time {
+	float: right;
+	color: #aaaaaa;
+}
+
+.message_two {
+	width: 300px;
+	background: #e4f6ff;
+	border: 2px solid #abdbf1;
+	border-radius: 3px;
+	color: #6c6c6c;
+	padding: 5px 10px 5px 10px;
+	align-self: flex-end;
+}
+
+.mainpart {
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 10px solid #f2f2f2;
+	padding: 30px;
+}
+
+.submittext {
+	width: 100%;
+	height: 50px;
+	border-radius: 3px;
+	border: 2px solid #b0d4f8;
+	resize: none;
+	padding: 5px;
+}
+
+form {
+	text-align: right;
+	background: #f2f2f2;
+	/* position: relative; */
+	padding: 0 10px;
+}
+
+.act {
+	color: #fff;
+	display: inline-block;
+	text-transform: uppercase;
+	background: #1C92BA;
+	padding: 4px 30px;
+	border: 0 solid #1C92BA;
+	border-radius: 4px;
+	margin: 10px 0 10px 20px;
+}
+
+.clip {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	height: 26px;
+	width: 26px;
+}

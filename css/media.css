@@ -1,0 +1,47 @@
+@media screen and (max-width: 1200px) {
+	.message_one {
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.message_one {
+		width: 160px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.message_one {
+		width: 260px;
+	}
+}
+
+@media screen and (max-width: 743px) {
+	.message_one {
+		width: 220px;
+	}
+}
+
+@media screen and (max-width: 615px) {
+	.message_one {
+		width: 170px;
+	}
+}
+
+@media screen and (max-width: 499px) {
+	.message_one {
+		width: 160px;
+	}
+}
+
+@media screen and (max-width: 453px) {
+	.message_one {
+		width: 260px;
+	}
+}
+
+@media screen and (max-width: 349px) {
+	.message_one {
+		width: 220px;
+	}
+}
